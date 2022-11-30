@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%; 
+    max-height: 100%; 
+    font-family:Sans-serif;
+    line-height: 1.5em;
+
+}
+
+#nav{
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    width: 230px; /* Width of navigation frame */
+    height: 100%;
+    overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 230px; /* Set this to the width of the navigation frame */
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    overflow: auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.innertube{
+    margin: 15px;
+     /* Provides padding for the content */
+}
+
+p {
+    color: #555;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul a {
+    color: grey;
+    text-decoration: none;
+    font-size: 20px;
+}
+        
+/*IE6 fix*/
+* html body{
+    padding: 0 230px 0 0; /* Set the second value to the width of the navigation frame */
+}
+
+* html main{ 
+    height: 100%; 
+    width: 100%; 
+}
+#content {
+    height: 90%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#content2 {
+    height: 90%; 
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+.fa-brands{
+    font-size: 30px;
+    color: gray
+}
+.fa-solid{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.blink {
+    animation: blink 2s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+  }
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+
+.fa-terminal:before {
+  content: "\f0f3";
+  color: lightgray;
+}
+
+#centernav { 
+    height: 100%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.vl {
+    border-left: 6px solid rgb(255, 255, 255);
+    height: 100%;
+  }
+
+.fa-regular {
+    color: #555;
+}
+.footer{
+    display: flex;
+    position: fixed;
+    margin: auto;
+    bottom: 0;
+    height: 2.5rem;
+    width: 87.5%;
+    justify-content:center;
+   align-items:center;
+    
+}
+
+main a {
+    text-decoration: none;
+    color:gray
+}
+
