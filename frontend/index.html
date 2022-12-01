@@ -1,33 +1,47 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Home | Adam Lisicki</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/all.css">
-<script src="scripts/main.js"></script>
+<script src="scripts/main.js"></script> 
+<script src="scripts/underline.js"></script> 
 <meta charset="utf-8">
 </head>
 <body>
     
 				
-    <main>
-        <div class="innertube" id="content">
-            
-            <p>
+    <section id="home">
+        <p>
                 <i class="fa-solid fa-terminal blink"></i><br/><br/><br/><br/>
                 <span style="font-size: 90px; color: lightgray;">Adam Lisicki</span><br/><br/>
                 <span style="font-size: 30px; color: rgba(211, 211, 211, 0.329);">Cloud and DevOps Enthusiast</span><br/><br/>
-                <a href="https://www.linkedin.com/in/adam-lisicki/" class="fa-brands fa-linkedin" id="linkedin"></a> &nbsp &nbsp
-                <a href="https://github.com/AdamLisicki" class="fa-brands fa-github" id="github"></a><br/><br/>
-                <span>This page has been viewed <a id="counter"></a> times :)</span>
-            <p>
-            
-            
-            
-            
-        </div>
+                <a href="https://www.linkedin.com/in/adam-lisicki/"  target="_blank" class="fa-brands fa-linkedin" id="linkedin"></a> &nbsp &nbsp
+                <a href="https://github.com/AdamLisicki"  target="_blank" class="fa-brands fa-github" id="github"></a><br/><br/>
+                <span style="color:rgba(211, 211, 211, 0.329);">This page has been viewed <a id="counter"></a> times :)</span><br/><br/><br/>
 
-    </main>
+        </p> 
+                
+
+
+    </section >
+    <section id="projects">
+
+                    <span style="font-size: 90px; color: lightgray;">My Projects</span><br/><br/><br/><br/><br/><br/>
+                    <a href="https://github.com/AdamLisicki/azure-resume" target="_blank" style="font-size: 40px;" id="project1" >Resume hosted on Azure</a>
+    </section>
+    <section id="certifications">
+        
+                <span style="font-size: 90px; color: lightgray;">My Certifications</span><br/><br/><br/><br/><br/><br/>
+                <a href="https://www.credly.com/badges/972fec60-6526-4766-bcbd-f4a7b2bd9073"  target="_blank" style="font-size: 40px;" id="cert1">Microsoft Certified: Azure Administrator Associate</a>
+
+    
+        
+
+
+</section>
+
     <footer class="footer">
         <p><i class="fa-regular fa-copyright">&nbsp</i>2022, Adam Lisicki</p>
     </footer>
@@ -35,15 +49,15 @@
     <nav id="nav" class="vl">
         <div class="innertube" id="centernav">
         <ul>
-            </i>&nbsp &nbsp<li><a href="index.html" style="text-decoration: underline; text-underline-offset: 3px" id="onmouseover_home" >Home</a></li>
-            </i>&nbsp &nbsp<li><a href="my_projects.html" id="onmouseover_projects">My Projects</a></li>
-            </i>&nbsp &nbsp<li><a href="my_certifications.html" id="onmouseover_certifications">My Certifications</a></li>
+            </i>&nbsp &nbsp<li><a href="#home" onclick="underline(this.id);" id="onmouseover_home" >Home</a></li>
+            </i>&nbsp &nbsp<li><a href="#projects" onclick="underline(this.id);" id="onmouseover_projects">My Projects</a></li>
+            </i>&nbsp &nbsp<li><a href="#certifications" onclick="underline(this.id);" id="onmouseover_certifications">My Certifications</a></li>
         </ul>
         </div>
     </nav>
 
 
-<script src="scripts/onmouseover.js"></script>    
+
   
 </body>
 </html>
