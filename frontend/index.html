@@ -10,14 +10,24 @@
 function changeTitletoHome() {
     newPageTitle = 'Home | Adam Lisicki';
     document.title = newPageTitle;
+    document.getElementById('onmouseover_home').style['text-decoration']='underline'
+    document.getElementById('onmouseover_projects').style['text-decoration']='none'
+    document.getElementById('onmouseover_certifications').style['text-decoration']='none'
+    
   }
 function changeTitletoProj() {
     newPageTitle = 'My Projects | Adam Lisicki';
     document.title = newPageTitle;
+    document.getElementById('onmouseover_home').style['text-decoration']='none'
+    document.getElementById('onmouseover_projects').style['text-decoration']='underline'
+    document.getElementById('onmouseover_certifications').style['text-decoration']='none'
   }
 function changeTitletoCert() {
     newPageTitle = 'My Certifications | Adam Lisicki';
     document.title = newPageTitle;
+    document.getElementById('onmouseover_home').style['text-decoration']='none'
+    document.getElementById('onmouseover_projects').style['text-decoration']='none'
+    document.getElementById('onmouseover_certifications').style['text-decoration']='underline'
   }
 
 </script>
@@ -63,9 +73,9 @@ function changeTitletoCert() {
     <nav id="nav" class="vl">
         <div class="innertube" id="centernav">
         <ul>
-            </i>&nbsp &nbsp<li><a href="#home" onclick="changeTitletoHome()" id="onmouseover_home" >Home</a></li>
-            </i>&nbsp &nbsp<li><a href="#projects" onclick="changeTitletoProj()" id="onmouseover_projects">My Projects</a></li>
-            </i>&nbsp &nbsp<li><a href="#certifications" onclick="changeTitletoCert()" id="onmouseover_certifications">My Certifications</a></li>
+            </i>&nbsp &nbsp<li><a href="#home" style ="text-decoration: underline; text-underline-offset: 4.4px" onclick="changeTitletoHome()" id="onmouseover_home" >Home</a></li>
+            </i>&nbsp &nbsp<li><a href="#projects" style ="text-underline-offset: 4.4px" onclick="changeTitletoProj()" id="onmouseover_projects">My Projects</a></li>
+            </i>&nbsp &nbsp<li><a href="#certifications" style ="text-underline-offset: 4.4px" onclick="changeTitletoCert()" id="onmouseover_certifications">My Certifications</a></li>
         </ul>
         </div>
     </nav>
