@@ -110,33 +110,9 @@ a:hover {
     margin: auto;
     bottom: 0;
     height: 2.5rem;
-    width: 87.5%;
+    width: 90%;
     justify-content:center;
-   align-items:center;
-   color: #555;
+    align-items:center;
+    color: #555;
     
 }
-.bottom__line {
-    position:absolute;
-    top:20px;
-    left:37px;
-    width:48px;
-    height:2px;
-    background-color:#d94f5c;
-  }
-  .bottom__active {
-    transform: translate3d(0%, 0, 0);
-    transition:all linear 240ms;
-  }
-  .bottom__active1 {
-    transform: translate3d(185%, 0, 0);
-    transition:all linear 240ms;
-  }
-  .bottom__active2 {
-    transform: translate3d(375%, 0, 0);
-    transition:all linear 240ms;
-  }
-  .color,.color1,.color2 {
-    color:#d94f5c;
-    transition:all linear 100ms;
-  }
