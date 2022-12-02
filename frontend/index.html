@@ -6,37 +6,12 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/all.css">
 <script src="scripts/main.js"></script> 
-<script>
-function changeTitletoHome() {
-    newPageTitle = 'Home | Adam Lisicki';
-    document.title = newPageTitle;
-    document.getElementById('onmouseover_home').style['text-decoration']='underline'
-    document.getElementById('onmouseover_projects').style['text-decoration']='none'
-    document.getElementById('onmouseover_certifications').style['text-decoration']='none'
-    
-  }
-function changeTitletoProj() {
-    newPageTitle = 'My Projects | Adam Lisicki';
-    document.title = newPageTitle;
-    document.getElementById('onmouseover_home').style['text-decoration']='none'
-    document.getElementById('onmouseover_projects').style['text-decoration']='underline'
-    document.getElementById('onmouseover_certifications').style['text-decoration']='none'
-  }
-function changeTitletoCert() {
-    newPageTitle = 'My Certifications | Adam Lisicki';
-    document.title = newPageTitle;
-    document.getElementById('onmouseover_home').style['text-decoration']='none'
-    document.getElementById('onmouseover_projects').style['text-decoration']='none'
-    document.getElementById('onmouseover_certifications').style['text-decoration']='underline'
-  }
-
-</script>
 <meta charset="utf-8">
 </head>
 <body>
     
 				
-    <section id="home">
+    <div id="home">
         <p>
                 <i class="fa-solid fa-terminal blink"></i><br/>
                 <span style="font-size: 90px; color: lightgray;">Adam Lisicki</span><br/>
@@ -49,43 +24,11 @@ function changeTitletoCert() {
                 
 
 
-    </section >
-    <section id="projects">
-
-                    <span style="font-size: 90px; color: lightgray;">My Projects</span><br/><br/><br/><br/><br/><br/>
-                    <a href="https://github.com/AdamLisicki/azure-resume" target="_blank" style="font-size: 40px;" id="project1" >Resume hosted on Azure</a>
-    </section>
-    <section id="certifications">
-        
-                <span style="font-size: 90px; color: lightgray;">My Certifications</span><br/><br/><br/><br/><br/><br/>
-                <a href="https://www.credly.com/badges/972fec60-6526-4766-bcbd-f4a7b2bd9073"  target="_blank" style="font-size: 40px;" id="cert1">Microsoft Certified: Azure Administrator Associate</a>
-
-    
-        
-
-
-</section>
+    </div>
 
     <footer class="footer">
         <p><i class="fa-regular fa-copyright">&nbsp</i>2022, Adam Lisicki</p>
     </footer>
-        
-    <nav id="nav" class="vl">
-        <div class="innertube" id="centernav">
-        <ul>
-            </i>&nbsp &nbsp<li><a href="#home" style ="text-decoration: underline; text-underline-offset: 4.4px" onclick="changeTitletoHome()" id="onmouseover_home" >Home</a></li>
-            </i>&nbsp &nbsp<li><a href="#projects" style ="text-underline-offset: 4.4px" onclick="changeTitletoProj()" id="onmouseover_projects">My Projects</a></li>
-            </i>&nbsp &nbsp<li><a href="#certifications" style ="text-underline-offset: 4.4px" onclick="changeTitletoCert()" id="onmouseover_certifications">My Certifications</a></li>
-        </ul>
-        </div>
-    </nav>
-
-
-    
-    <script>  
-        window.onbeforeunload = function () {
-            window.scrollTo(0, 0);
-        }; 
  </script> 
 </body>
 </html>
