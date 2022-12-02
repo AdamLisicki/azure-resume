@@ -11,7 +11,7 @@
     top: 0;
     bottom: 0; 
     right: 0;
-    width: 10%; /* Width of navigation frame */
+    width: 12%; /* Width of navigation frame */
     height: 100%;
     overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
     background: rgb(0, 0, 0);
@@ -22,7 +22,7 @@
 
 section{
    
-   width: 90%;
+   width: 88%;
    height: 100%;
    min-height: 1000px;
    float: left;
