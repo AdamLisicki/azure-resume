@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TkO2dTUDoxs5oxQkMLzizt1L1HJO73Jq6EeisOcauvGfI8wsrqJfxcIc0ZSa3YvQJDWV7BbnKXPOPL2xGQOkXA==",
+  "dgSpecHash": "A8UmoOyS/DP9qDaxnOQLNs9tthBwzJjQHCL9Dv4i7qzhVQORV060iQGJURII4e6afObv8mbOKLj2nBD0sz6oew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adaml\\Desktop\\Projects\\azure-resume\\backend\\tests\\tests.csproj",
+  "projectFilePath": "c:\\Users\\adaml\\Desktop\\Projects\\azure-showcase\\backend\\tests\\tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adaml\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\adaml\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.4\\microsoft.aspnet.webapi.client.5.2.4.nupkg.sha512",

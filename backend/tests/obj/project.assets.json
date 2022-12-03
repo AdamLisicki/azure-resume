@@ -11216,11 +11216,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\adaml\\Desktop\\Projects\\azure-resume\\backend\\tests\\tests.csproj",
+      "projectUniqueName": "c:\\Users\\adaml\\Desktop\\Projects\\azure-showcase\\backend\\tests\\tests.csproj",
       "projectName": "tests",
-      "projectPath": "C:\\Users\\adaml\\Desktop\\Projects\\azure-resume\\backend\\tests\\tests.csproj",
+      "projectPath": "c:\\Users\\adaml\\Desktop\\Projects\\azure-showcase\\backend\\tests\\tests.csproj",
       "packagesPath": "C:\\Users\\adaml\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\adaml\\Desktop\\Projects\\azure-resume\\backend\\tests\\obj\\",
+      "outputPath": "c:\\Users\\adaml\\Desktop\\Projects\\azure-showcase\\backend\\tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\adaml\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -11235,8 +11235,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\adaml\\Desktop\\Projects\\azure-resume\\backend\\api\\api.csproj": {
-              "projectPath": "C:\\Users\\adaml\\Desktop\\Projects\\azure-resume\\backend\\api\\api.csproj"
+            "c:\\Users\\adaml\\Desktop\\Projects\\azure-showcase\\backend\\api\\api.csproj": {
+              "projectPath": "c:\\Users\\adaml\\Desktop\\Projects\\azure-showcase\\backend\\api\\api.csproj"
             }
           }
         }
