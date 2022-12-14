@@ -16,4 +16,4 @@ Technologies:
 
 ## Architecture
 
-![alt text](http://url/to/img.png)
+![architecture](https://github.com/AdamLisicki/azure-static-website/blob/main/azure-static-website.png)
